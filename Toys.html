@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <html>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src= "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Cats</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Home2.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Food.html">Cat Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Cat Toys</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cat.html">Where to Get a Cat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <head>
+      <style>
+        body{
+          text-align:center;
+          background-color:rgb(126, 144, 160)
+        }
+        h1{
+          text-decoration:underline;
+        }
+      </style>
+      <title>Cats</title>
+    </head>
+    <body>
+      <div id="square3"></div>
+    </body>
+    <head>
+      <style>
+        #square3{
+          height:100px;
+          width:100px;
+          animation-name:animation3;
+          Animation-duration:4s;
+          background-color:aquamarine;
+          align-items:center;
+          margin:auto;
+          animation-iteration-count:infinite;
+        }
+        @keyframes animation3{
+          0%{
+            transform:rotate(2880deg);
+            background-color:blueviolet;
+          }
+          25%{
+            transform:rotate(-2880deg);
+            background-color:deepskyblue;
+          }
+          50%{
+            transform:rotate(2880deg);
+            background-color:rgb(35, 152, 50);
+          }
+          75%{
+            transform:rotate(-2880deg);
+            background-color:gold;
+          }
+          100%{
+            transform:rotate(2880deg);
+            background-color:aquamarine;
+          }
+        }
+      </style>
+    </head>
+    </html>
