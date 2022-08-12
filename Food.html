@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <html>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src= "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Cats</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Cat Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Toys.html">Cat Toys</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Cat.html">Where to Get a Cat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <head>
+      <style>
+        body{
+          text-align:center;
+          background-color:rgb(126, 144, 160);
+        }
+        h1{
+          text-decoration:underline;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h3{
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h2{
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p{
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+      </style>
+      <title>Cats</title>
+    </head>
+    <body>
+      <h1>
+        Cat Food
+      </h1>
+      <h2>
+        What do cats eat?
+      </h2>
+      <img src="https://placekitten.com/g/500/300">
+      <h3>
+        Have you ever wondered what food cats eat?<br>Or have you ever given a cat milk but it didn't drink it?<br>Turns out, that kittens are lactose intolerant. Weird right?
+      </h3>
+      <p>
+        <strong>If you're wondering what cats like the best, it's meat. <br>You can change your cat's diet by giving different kinds of meat or give it cooked or raw.<br> A cats favorite meat is usually fish but they'll eat other meats too.<br> You can also give cats veggie burgers as long as it doesn't onions or garlic.</strong>
+      </p>
+      <div id="squarecontainer">
+      <div       id="square">
+      </div>
+      </div>
+    </body>
+      <head>
+        <style>
+          #squarecontainer{
+            width:100%;
+            text-align:center;
+          }
+          #square{
+            height:100px;
+            width:100px;
+            animation-name:animation;
+            Animation-duration:4s;
+            background-color:aquamarine;
+            align-items:center;
+            margin:auto;
+            animation-iteration-count:infinite;
+          }
+          @keyframes animation{
+            0%{
+              transform:rotate(2880deg);
+              background-color:blueviolet;
+            }
+            25%{
+              transform:rotate(-2880deg);
+              background-color:deepskyblue;
+            }
+            50%{
+              transform:rotate(2880deg);
+              background-color:rgb(35, 152, 50);
+            }
+            75%{
+              transform:rotate(-2880deg);
+              background-color:gold;
+            }
+            100%{
+              transform:rotate(2880deg);
+              background-color:aquamarine;
+            }
+          }
+        </style>
+      </head>
+    </html>
+
